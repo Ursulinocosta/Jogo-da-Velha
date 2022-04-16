@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    font-family: fantasy;
+    background-color: rgb(170, 170, 170);
+}
+
+.quadrado {
+    text-align: center;
+    width: 50px;
+    background: #eee;
+    display: inline-block;
+    padding: 20px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    color: #eee;
+    border-radius: 30%;
+}
+
+.jogador, .vencedor {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background: rgb(25, 246, 0);
+    cursor: pointer;
+    border-radius: 15%;
+}
+footer{
+    font: italic bold 20px arial, sans-serif;
+    text-align: right;
+    color: rgb(195, 53, 53);
+}
